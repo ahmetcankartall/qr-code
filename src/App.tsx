@@ -1,38 +1,39 @@
-
 function App() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-[#d6e3f8]">
-      <div className="w-[320px] h-[499px] bg-white flex flex-col items-center justify-center rounded-lg p-6 shadow-lg">
-        <img className="w-[288px] h-[288px]  rounded-lg"
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[#D5E1EF]">
+      <div className="flex h-[499px] w-[320px] flex-col items-center rounded-2xl bg-white p-4 shadow-lg">
+        <img
+          className="h-[288px] w-[288px] rounded-2xl"
           src="/images/image-qr-code.png"
           alt="QR Code"
         />
 
-        <h1 className="text-center text-[#1f3251] font-bold text-[22px] mt-2 mb-2 ">
+        <h1 className="mt-6 text-center text-[22px] leading-[120%] font-bold text-[#1F314F]">
           Improve your front-end skills by building projects
         </h1>
 
-        <p className="text-center text-[#7b879d] pb-6 ">
+        <p className="mt-4 text-center text-[16px] leading-[140%] tracking-[0.2px] text-[#68778D]">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
       </div>
- 
-      <footer className="pt-12 text-center text-[#7b879d]  ">
+
+      <footer className="pt-12 text-center text-[#68778D]">
         Challenge by{' '}
-        <a className="text-[#7b879d] hover:text-[#1f3251] underline"
+        <a
+          className="underline hover:text-[#1F314F]"
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
-rel="noopener noreferrer">
+          rel="noopener noreferrer"
+        >
           Frontend Mentor
         </a>
-        .
-
-        Coded by{' '}
-        <a className="text-[#7b879d] hover:text-[#1f3251] underline "
+        . Coded by{' '}
+        <a
+          className="underline hover:text-[#1F314F]"
           href="https://github.com/ahmetcankartall"
           target="_blank"
-rel="noopener noreferrer"
+          rel="noopener noreferrer"
         >
           Ahmet Can Kartal
         </a>
@@ -43,4 +44,3 @@ rel="noopener noreferrer"
 }
 
 export default App
-
