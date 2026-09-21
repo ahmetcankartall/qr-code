@@ -8,11 +8,11 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 <img width="1913" height="863" alt="image" src="https://github.com/user-attachments/assets/bc45f566-cbe8-48e1-a7c2-303269dca866" />
 
-
 ### Links
 
-* Solution URL: https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
+* Repository URL: https://github.com/ahmetcankartall/qr-code
 * Live Site URL: https://qr-code-blond-one.vercel.app/
+* Challenge URL: https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
 
 ## My process
 
@@ -31,6 +31,8 @@ This was my first Frontend Mentor project using React, TypeScript, and Tailwind 
 
 I practiced converting a static design into a React component and using Tailwind CSS for layout, spacing, sizing, and responsive styling.
 
+One of the challenges I faced was vertically centering the card while keeping the footer in the correct position. I initially focused only on the card itself, but I realized that the parent container and its layout were affecting the position of the entire page. This helped me better understand how Flexbox alignment works between parent and child elements.
+
 I also practiced using Flexbox and CSS Grid to control the layout and positioning of elements.
 
 ### Continued development
@@ -39,7 +41,7 @@ In future projects, I want to improve my understanding of Flexbox and CSS Grid a
 
 I also want to practice building larger and more complex React applications with reusable components.
 
-### Useful resources
+## Useful resources
 
 * [Frontend Mentor](https://www.frontendmentor.io/) - The challenge and design resources.
 * [Tailwind CSS](https://tailwindcss.com/) - Used for styling and layout.
